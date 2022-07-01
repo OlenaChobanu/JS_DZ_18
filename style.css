@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 30px 15px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+input {
+    padding: 5px;
+}
+
+.contacts-container {
+    height: 95%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.contacts-cont {
+    flex: 2;
+    overflow: auto;
+    padding: 10px;
+}
+
+.change-contact-cont {
+    flex: 1;
+    padding: 5px;
+    padding-top: 100px;
+}
+
+.edit-contact {
+    display: none;
+}
+
+.btn  {
+    padding: 5px 10px;
+    background-color: lightgreen;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+.btn-delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0 4px;
+}
+
+.btn-edit {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+.single-contact { 
+    position: relative;
+    padding: 30px 15px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    background-color: lightyellow;
+    width: 100%;
+}
+
+.single-contact + .single-contact {
+    margin-top: 10px;
+}
+
+/* .single-contact-editing {
+    border: 1px solid coral;
+} */
+
+.inp-edit {
+    margin-bottom: 15px;
+}
